@@ -283,7 +283,7 @@
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.875rem;
-  margin-bottom: 54px;
+  margin-bottom: 45px;
 }
 .feed-container .aside .hashtags > .tags {
   display: flex;
@@ -296,4 +296,34 @@
   width: fit-content;
   padding: 7px 12px;
   font-size: 0.85rem;
+}
+.feed-container .aside .trending {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.feed-container .aside .trending h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 45px;
+}
+.feed-container .aside .trending .items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feed-container .aside .trending .items .item {
+  display: flex;
+}
+.feed-container .aside .trending .items .item img {
+  margin-right: 15px;
+  object-fit: cover;
+  border-radius: 4px;
+  width: 80px;
+}
+.feed-container .aside .trending .items .item p {
+  font-weight: 800;
+  font-size: 1.05rem;
+  margin-bottom: 5px;
 }
