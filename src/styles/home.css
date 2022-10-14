@@ -193,47 +193,7 @@ main{
 }
 
 
-.aside-1{
-    background-color: white;
-    padding: 25px 30px;
-    border-radius: 4px;
-}
 
-.aside-1 .aside-1-titulo{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-
-    padding-bottom: 20px;
-    border-bottom: 1px solid #F4F4F4;
-}
-
-.aside-1 .aside-1-titulo h2{
-    font-size: .875rem;
-}
-
-.aside-1 .aside-1-titulo a{
-    color: #0275B1;
-    font-weight: bolder;
-    font-size: 14px;
-}
-
-.aside-1 .aside-1-column {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.aside-1 .aside-1-column h1{
-    font-size: 3.25rem;
-    color: #0275B1;
-}
-
-.aside-1 .aside-1-column p{
-    font-size: .875rem;
-    color:  #181818;
-    font-weight: 500;
-}
 
 
 .sec-button{
@@ -360,4 +320,218 @@ main{
 .sec-4 a{
     text-decoration: none;
     color:#0275B1;
+}
+
+.sec-5{
+    padding: 30px 30px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.sec-5 p{
+    font-size: .875rem;
+}
+
+.sec-5 h2{
+    font-size: 1.2rem;
+}
+
+.sec-5 .sec-5-flex{
+    margin-top: 27px;
+    display: flex;
+    gap: 16px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.sec-5 .sec-5-flex  img{
+    width: 80px;
+}
+
+.sec-5 .sec-5-flex .sec-5-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sec-5 .sec-5-flex .sec-5-column .texto{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.sec-6{
+    margin-top: 20px;
+    background-color: white;
+    padding: 30px 30px;
+}
+
+.sec-6 p{
+    font-size: .875rem;
+}
+
+.sec-6 h2{
+    font-size: 1.2rem;
+}
+
+.sec-6 .sec-6-flex{
+    margin-top: 27px;
+    display: flex;
+    gap: 16px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.sec-6 .sec-6-flex  img{
+    width: 80px;
+}
+
+.sec-6 .sec-6-flex .sec-6-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/*-------------- ASIDE -----------------*/
+
+.aside-1{
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 4px;
+}
+
+.aside-1 .aside-1-titulo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.aside-1 .aside-1-titulo h2{
+    font-size: .875rem;
+}
+
+.aside-1 .aside-1-titulo a{
+    color: #0275B1;
+    font-size: 14px;
+}
+
+.aside-1 .aside-1-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aside-1 .aside-1-column h1{
+    font-size: 3.25rem;
+    color: #0275B1;
+}
+
+.aside-1 .aside-1-column p{
+    font-size: .875rem;
+    color:  #181818;
+    font-weight: 500;
+}
+
+.aside-2{
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.aside-2 h4{
+font-size: .875rem;
+}
+
+.aside-2 p{
+    font-size: .75rem;
+}
+
+.aside-2 .aside-2-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 20px;
+}
+
+.aside-2 .aside-2-titulo a{
+    text-decoration: none;
+    color: #0275B1
+}
+
+.aside-2 .aside-2-flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.aside-2 .aside-2-flex-column .aside-2-flex{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.aside-2 .aside-2-flex-column .aside-2-flex .aside-2-column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.aside-3{
+    padding: 30px 30px;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.aside-3 h2{
+    font-size: .875rem;
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.aside-3 h3 {
+    font-size: 1rem;
+}
+
+.aside-3 p{
+    font-size: .75rem;
+}
+
+.aside-3 a{
+    display: inline-block;
+    margin-top: 29px;
+    text-decoration: none;
+    font-size: .875rem;
+    color: #0275B1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.aside-3 .aside-3-flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 20px;
+}
+
+.aside-3 .aside-3-flex-column .aside-3-flex{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.aside-3 .aside-3-flex-column .aside-3-flex .aside-3-column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
