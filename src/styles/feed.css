@@ -219,3 +219,58 @@
 .feed-container .aside .perfil .dados p {
   font-size: 0.85rem;
 }
+.feed-container .aside .new-article {
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  padding: 12px 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+.feed-container .aside .new-article:hover {
+  transform: scale(1.05);
+}
+.feed-container .aside .my-groups > span {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 54px;
+}
+.feed-container .aside .my-groups > span a {
+  text-decoration: none;
+  color: #0275b1;
+}
+.feed-container .aside .my-groups > span a:hover {
+  text-decoration: underline;
+}
+.feed-container .aside .my-groups > .group-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  gap: 35px;
+}
+.feed-container .aside .my-groups > .group-list .item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.feed-container .aside .my-groups > .group-list .item img {
+  width: 52px;
+  height: 52px;
+}
+.feed-container .aside .my-groups > .group-list .item p {
+  max-width: 160px;
+  font-weight: 700;
+}
+.feed-container .aside .my-groups > .group-list > a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0275b1;
+  text-transform: uppercase;
+}
