@@ -233,6 +233,11 @@
 .feed-container .aside .new-article:hover {
   transform: scale(1.05);
 }
+.feed-container .aside .my-groups {
+  padding: 28px 0;
+  margin-bottom: 25px;
+  border-radius: 4px;
+}
 .feed-container .aside .my-groups > span {
   display: flex;
   justify-content: space-between;
@@ -273,4 +278,22 @@
   text-decoration: none;
   color: #0275b1;
   text-transform: uppercase;
+}
+.feed-container .aside .hashtags h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 54px;
+}
+.feed-container .aside .hashtags > .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.feed-container .aside .hashtags > .tags .tag {
+  background: #e9f0f8;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 7px 12px;
+  font-size: 0.85rem;
 }
