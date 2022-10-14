@@ -188,5 +188,34 @@
   cursor: pointer;
 }
 .feed-container .aside {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+.feed-container .aside .perfil {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+.feed-container .aside .perfil .dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -65px;
+  text-align: center;
+  padding: 16px 0 26px 0;
+}
+.feed-container .aside .perfil .dados img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.feed-container .aside .perfil .dados h2 {
+  margin-bottom: 10px;
+  margin-top: 16px;
+  font-size: 1.2rem;
+}
+.feed-container .aside .perfil .dados p {
+  font-size: 0.85rem;
 }
