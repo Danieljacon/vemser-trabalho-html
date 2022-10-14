@@ -77,75 +77,100 @@
   color: #0275b1;
   margin-left: 2px;
 }
-.feed-container .main .section-2, .feed-container .main .post {
+.feed-container .main .section-2,
+.feed-container .main .post {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 4px;
   padding: 25px 30px;
+  margin: 20px 0;
 }
-.feed-container .main .section-2 > span, .feed-container .main .post > span {
+.feed-container .main .section-2 > span,
+.feed-container .main .post > span {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.feed-container .main .section-2 > span h2, .feed-container .main .post > span h2 {
+.feed-container .main .section-2 > span h2,
+.feed-container .main .post > span h2 {
   font-size: 0.75rem;
   font-weight: 500;
   margin-bottom: 30px;
 }
-.feed-container .main .section-2 > span h2 strong, .feed-container .main .post > span h2 strong {
+.feed-container .main .section-2 > span h2 strong,
+.feed-container .main .post > span h2 strong {
   color: #0275b1;
 }
-.feed-container .main .section-2 > span img, .feed-container .main .post > span img {
+.feed-container .main .section-2 > span img,
+.feed-container .main .post > span img {
   cursor: pointer;
 }
-.feed-container .main .section-2 > div > p, .feed-container .main .post > div > p {
+.feed-container .main .section-2 > div > p,
+.feed-container .main .post > div > p {
+  line-height: 150%;
+  font-size: 0.875rem;
+}
+.feed-container .main .section-2 > div .read-more-transparent,
+.feed-container .main .post > div .read-more-transparent {
   background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  line-height: 150%;
-  font-size: 0.875rem;
 }
-.feed-container .main .section-2 > div > div, .feed-container .main .post > div > div {
+.feed-container .main .section-2 > div .image-post,
+.feed-container .main .post > div .image-post {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 15px;
+}
+.feed-container .main .section-2 > div > div,
+.feed-container .main .post > div > div {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-bottom: 15px;
 }
-.feed-container .main .section-2 > div > div span h3, .feed-container .main .post > div > div span h3 {
+.feed-container .main .section-2 > div > div span h3,
+.feed-container .main .post > div > div span h3 {
   font-size: 1.2rem;
 }
-.feed-container .main .section-2 > div > div span p, .feed-container .main .post > div > div span p {
+.feed-container .main .section-2 > div > div span p,
+.feed-container .main .post > div > div span p {
   font-size: 0.875rem;
 }
-.feed-container .main .section-2 > div a, .feed-container .main .post > div a {
+.feed-container .main .section-2 > div a,
+.feed-container .main .post > div a {
   text-transform: uppercase;
   font-size: 0.875rem;
   font-weight: 600;
   text-decoration: none;
   color: #0275b1;
 }
-.feed-container .main .section-2 > div a:hover, .feed-container .main .post > div a:hover {
+.feed-container .main .section-2 > div a:hover,
+.feed-container .main .post > div a:hover {
   text-decoration: underline;
 }
-.feed-container .main .section-2 > div .reactions, .feed-container .main .post > div .reactions {
+.feed-container .main .section-2 > div .reactions,
+.feed-container .main .post > div .reactions {
   margin-top: 35px;
   display: flex;
   justify-content: space-between;
 }
-.feed-container .main .section-2 > div .reactions > div, .feed-container .main .post > div .reactions > div {
+.feed-container .main .section-2 > div .reactions > div,
+.feed-container .main .post > div .reactions > div {
   display: flex;
   gap: 60px;
 }
-.feed-container .main .section-2 > div .reactions > div .reaction, .feed-container .main .post > div .reactions > div .reaction {
+.feed-container .main .section-2 > div .reactions > div .reaction,
+.feed-container .main .post > div .reactions > div .reaction {
   display: flex;
   align-items: center;
   gap: 6px;
   cursor: pointer;
 }
-.feed-container .main .section-2 > div .reactions .share, .feed-container .main .post > div .reactions .share {
+.feed-container .main .section-2 > div .reactions .share,
+.feed-container .main .post > div .reactions .share {
   display: flex;
   gap: 6px;
   text-transform: uppercase;
