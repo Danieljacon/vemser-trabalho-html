@@ -1,0 +1,15 @@
+header{
+    background-color: red;
+    width: 100%;
+    height: 80px;
+}
+
+
+main{
+    background-color: #F7F9FB;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
