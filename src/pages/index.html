@@ -11,94 +11,277 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
+    <header class="header">
+        <nav class="header-container">
+            <i class="logo"><img src="../assets/icons/header-logo.svg" alt="Logo Linkedin"></i>
+            <ul class="menu-options">
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-rss"></i>
+                        <p>Feed</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i>
+                            <img src="../assets/icons/header-user.svg">
+                        </i>
+                        <p>Network</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i>
+                            <img src="../assets/icons/header-briefcase.svg">
+                        </i>
+                        <p>Jobs</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i>
+                            <img src="../assets/icons/header-message-square.svg">
+                        </i>
+                        <p>Chat</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i>
+                            <img src="../assets/icons/header-bell.svg">
+                        </i>
+                        <p>Notices</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="search-bar">
+                <i><img src="../assets/icons/header-search.svg"></i>
+                <input type="search" placeholder="Search">
+            </div>
 
+            <div class="d-flex-center">
+                <div class="perfil">
+                    <img src="../assets/icons/header-perfil-photo.svg" alt="Foto de perfil">
+                    <div class="perfil-infos">
+                        <span class="name">
+                            <p>D. Kargaev</p>
+                            <p>you</p>
+                        </span>
+                        <span class="views">
+                            <p>367 views today</p>
+                            <p>+32 <img src="../assets/icons/header-arrow-up-right.svg"></p>
+                        </span>
+                    </div>
+                </div>
+                <button class="other">
+                    <img src="../assets/icons/header-more-horizontal.svg">
+                    <p>Other</p>
+                </button>
+            </div>
+        </nav>
     </header>
 
-    <main>
-        <div class="container">
-            <section class="sec-1">
-                <div class="sec-1-column">
-                    <div class="imagem-fundo">
-                        <div class="sec-1-flex">
-                            <div>
-                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
-                            </div>
-    
-                            <div>
-                                <button> <i class="fa-regular fa-pen-to-square"></i> EDIT PROFILE</button>
-    
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
+    <div class="container">
+         <main>
+            <div class="main">
+                <section class="sec-1">
+                    <div class="sec-1-column">
+                        <div class="imagem-fundo">
+                            <div class="sec-1-flex">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                </div>
+        
+                                <div>
+                                    <button> <i class="fa-regular fa-pen-to-square"></i> EDIT PROFILE</button>
+        
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-               
-                    
-                    <div class="sec-1-flex-2">
-                        <img src="../assets/images/home-foto-perfil.png" alt="">
-
-                        <div class="mensagem">
-                            <div class="nome-flex">
-                                <div>
-                                    <h1>Dmitry Kargaev</h1>
-                                    <i class="fa-brands fa-linkedin"></i>
+                   
+                        
+                        <div class="sec-1-flex-2">
+                            <img src="../assets/images/home-foto-perfil.png" alt="">
+    
+                            <div class="mensagem">
+                                <div class="nome-flex">
+                                    <div>
+                                        <h1>Dmitry Kargaev</h1>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+        
+                                    <div>
+                                        <i class="fa-solid fa-location-arrow"></i>
+                                        <p>Saint Petersburg, Russian Federation</p>
+                                    </div>
+                                        
                                 </div>
     
                                 <div>
-                                    <i class="fa-solid fa-location-arrow"></i>
-                                    <p>Saint Petersburg, Russian Federation</p>
-                                </div>
-                                    
-                            </div>
-
-                            <div>
-                                <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.</p>
-
-                                <button class="botao-azul">Contact info</button>
-                                <button class="botao-borda">1,043 connections</button>
+                                    <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.</p>
     
+                                    <button class="botao-azul">Contact info</button>
+                                    <button class="botao-borda">1,043 connections</button>
+        
+                                </div>
                             </div>
+    
                         </div>
-
+    
+                        
                     </div>
-
-                    
-                </div>
-            </section>
-
-
-
-            <aside>
-                <section class="aside-1">
-                    <div class="aside-1-titulo">
-                        <h2>YOUR DASHBOARD</h1>
-                        <a href="">GO TO STATS</a>
-                    </div>
-
-                    <div class="aside-1-column">
-                        <div>
-                            <h1>367</h1>
-                            <p>views today</p>
-                        </div>
-
-                        <div>
-                            <h1>15</h1>
-                            <p>posts views</p>
-                        </div>
-
-                        <div>
-                            <h1>9</h1>
-                            <p>search appereances</p>
-                        </div>
-
-                    </div>
-
+    
                 </section>
-            </aside>
+
+                    
+                <section class="sec-button">
+                    <button>
+                        PROFILE
+                    </button>     
+
+                    <button>
+                        Activity & interests
+                    </button>
+
+                    <button>
+                        Articles (3)
+                    </button>
+                </section>
 
 
-        </div>
+                <section class="sec-2">
+                    <h2>About</h2>
+                    <p>I'm more experienced in eCommerce web projects and mobile banking apps, but also like to work with creative projects, such as landing pages or unusual corporate websites. </p>
+
+                    <a href="">SEE MORE</a>
+                </section>
+
+                <section class="sec-3">
+                    <div class="sec-3-titulo">
+                        <h2>Projects</h2>
+                        <h2>3 of 12</h2>
+                    </div>
+
+                    <div class="cards">
+                        <div class="card">
+                            <img src="../assets/images/home-card-1.png" alt="">
+                            <h3>Zara redesign concept</h3>
+                            <p>UX/UI design, 15.07.2019</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="../assets/images/home-card-2.png" alt="">
+                            <h3>SCTHON event brand identity</h3>
+                            <p>Graphic design, 03.31.2019</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="../assets/images/home-card-3.png" alt="">
+                            <h3>Drozd. Brand identity. 2016</h3>
+                            <p>Graphic design, 03.04.2016</p>
+                        </div>
+                    </div>
+
+                    <a href="">SHOW ALL (17)</a>
+                </section>
+
+                <section class="sec-4">
+                    <h1>Skills & Endoresments</h1>
+
+                    <div class="sec-4-cards">
+                        <div class="sec-4-card">
+                            <div class="sec-4-titulo">
+                                <h3>User experience (UX)</h3>
+                                <h4>6</h3>
+                            </div>
+
+                            <div class="icones">
+                                <i><img class="icone" src="../assets/icons/home-icone-1.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-2.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-3.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-4.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-5.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-azul-1.png" alt=""></i>
+                            </div>
+                        </div>
+
+                        <div class="sec-4-card">
+                            <div class="sec-4-titulo">
+                                <h3>User interface (UI)</h3>
+                                <h4>7</h3>
+                            </div>
+
+                            <div class="icones">
+                                <i><img class="icone" src="../assets/icons/home-icone-1.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-2.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-3.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-4.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-5.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-azul-2.svg" alt=""></i>
+                            </div>
+                        </div>
+
+                        <div class="sec-4-card">
+                            <div class="sec-4-titulo">
+                                <h3>Brand identity</h3>
+                                <h4>5</h3>
+                            </div>
+
+                            <div class="icones">
+                                <i><img class="icone" src="../assets/icons/home-icone-1.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-2.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-3.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-4.svg" alt=""></i>
+                                <i><img class="icone" src="../assets/icons/home-icone-5.svg" alt=""></i>
+                            </div> 
+                            
+                        </div>
+                    </div>
+
+                    <a href="">Show ALL (17)</a>
+                </section>
+
+            </div>
+           
     </main>
+
+    <aside>
+        <section class="aside-1">
+            <div class="aside-1-titulo">
+                <h2>YOUR DASHBOARD</h1>
+                <a href="">GO TO STATS</a>
+            </div>
+
+            <div class="aside-1-column">
+                <div>
+                    <h1>367</h1>
+                    <p>views today</p>
+                </div>
+
+                <div>
+                    <h1>15</h1>
+                    <p>posts views</p>
+                </div>
+
+                <div>
+                    <h1>9</h1>
+                    <p>search appereances</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+        </section>
+
+    </aside>
+
+</div>
+
 
 </body>
 </html>
