@@ -1,0 +1,91 @@
+footer{
+    border-top: 1px solid #c7c3c3;
+    height: 300px;
+    margin-top: 40px;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul li{
+    list-style: none;
+    font-size: .875rem;
+    cursor: pointer;
+}
+
+span{
+    color: #0275B1;
+}
+
+.container-footer{
+    padding-top: 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footer-flex{
+    display: flex;
+    gap: 70px;
+}
+
+.footer-flex h2{
+    margin-top: 12px;
+}
+
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.links{
+    margin-top: 52px;
+}
+
+
+footer .botao-azul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    background-color: #0275b1;
+    border: none;
+    padding: 11px 15px;
+    border-radius: 4px;
+    margin-top: 23px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+footer .botao-borda{
+    color: #0275b1;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    border: 1px solid #0275b1;
+    padding: 11px 15px;
+    border-radius: 4px;
+    margin-top: 21px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+select{
+    width: 270px;
+    border: none;
+    padding: 11px 15px;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: 0;
+}

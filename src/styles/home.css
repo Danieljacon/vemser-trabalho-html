@@ -405,6 +405,7 @@ main{
 .aside-1 .aside-1-titulo{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 25px;
 
     padding-bottom: 20px;
@@ -418,6 +419,7 @@ main{
 .aside-1 .aside-1-titulo a{
     color: #0275B1;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .aside-1 .aside-1-column {
@@ -463,7 +465,9 @@ font-size: .875rem;
 
 .aside-2 .aside-2-titulo a{
     text-decoration: none;
-    color: #0275B1
+    color: #0275B1;
+    font-weight: 600;
+    
 }
 
 .aside-2 .aside-2-flex-column{
