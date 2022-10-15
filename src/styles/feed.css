@@ -94,12 +94,16 @@
   font-size: 0.75rem;
   font-weight: 500;
   margin-bottom: 30px;
+  color: black;
 }
 .feed-container .main .post > span h2 strong {
   color: #0275b1;
 }
 .feed-container .main .post > span img {
   cursor: pointer;
+}
+.feed-container .main .post > div div h3, .feed-container .main .post > div div p {
+  color: black;
 }
 .feed-container .main .post > div > p {
   line-height: 150%;
@@ -326,4 +330,8 @@
   font-weight: 800;
   font-size: 1.05rem;
   margin-bottom: 5px;
+  color: black;
+}
+.feed-container .aside .trending .items .item small {
+  color: black;
 }
